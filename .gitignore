@@ -1,0 +1,17 @@
+# Ignore Python virtual environment created in project
+.venv/
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+
+# macOS
+.DS_Store

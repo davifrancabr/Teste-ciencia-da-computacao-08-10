@@ -1,0 +1,101 @@
+id,nome,idade,gostos
+1,André,39,"['Moda', 'Ciência']"
+2,Carlos,45,"['História', 'Games', 'Viagem']"
+3,Felipe,34,"['Cinema', 'Natureza']"
+4,Lucas,34,"['Natureza', 'Futebol']"
+5,Marcos,23,"['Política', 'Dança', 'Viagem', 'Natureza']"
+6,Fernanda,31,"['Leitura', 'Ciência', 'História', 'Política', 'Natureza']"
+7,Julia,20,['Carros']
+8,Larissa,31,"['História', 'Games']"
+9,Gustavo,41,"['Carros', 'Fotografia', 'Arte']"
+10,Julia,46,"['Fotografia', 'Leitura', 'Culinária']"
+11,Rodrigo,50,"['Viagem', 'Teatro', 'História', 'Games']"
+12,Felipe,26,"['Moda', 'Cinema', 'Fotografia']"
+13,Isabela,43,"['Ciência', 'Arte']"
+14,Ana,30,['Tecnologia']
+15,André,26,"['Teatro', 'Música', 'Dança', 'Tecnologia', 'História']"
+16,Isabela,38,"['Games', 'Viagem', 'Pets']"
+17,Larissa,59,"['Política', 'Dança', 'Futebol', 'Cinema', 'Arte']"
+18,Beatriz,60,"['Pets', 'Leitura', 'Carros', 'Viagem', 'Tecnologia']"
+19,Larissa,25,['História']
+20,João,36,"['Culinária', 'Tecnologia', 'Natureza', 'Moda']"
+21,Laura,57,['Arte']
+22,Gustavo,57,"['Ciência', 'Teatro', 'Cinema', 'Fotografia', 'História']"
+23,Lucas,40,['Games']
+24,Pedro,23,['Tecnologia']
+25,Marcos,26,"['Natureza', 'Dança', 'Cinema']"
+26,Larissa,18,"['Pets', 'Política', 'Natureza', 'Leitura']"
+27,Patrícia,29,"['Tecnologia', 'Dança', 'Futebol', 'Arte']"
+28,Isabela,39,"['Música', 'Esportes', 'Dança', 'Carros', 'Tecnologia']"
+29,Larissa,30,"['Arte', 'Fotografia', 'Carros']"
+30,Mariana,41,"['Pets', 'Tecnologia', 'Natureza', 'Dança']"
+31,Rodrigo,36,"['Cinema', 'Tecnologia']"
+32,João,18,"['Carros', 'Música', 'Ciência', 'História', 'Arte']"
+33,Beatriz,42,"['Teatro', 'Leitura']"
+34,Patrícia,20,"['Pets', 'Carros', 'Viagem', 'Dança']"
+35,Beatriz,21,"['Política', 'Futebol', 'Teatro', 'Viagem', 'Ciência']"
+36,Mariana,51,"['História', 'Pets', 'Natureza']"
+37,Patrícia,45,"['Games', 'Culinária']"
+38,Patrícia,27,['Música']
+39,Isabela,31,"['Moda', 'Culinária', 'História']"
+40,Marcos,38,['Esportes']
+41,Mariana,21,"['Carros', 'Teatro', 'Pets']"
+42,Rodrigo,18,['Leitura']
+43,Isabela,44,"['Carros', 'Esportes', 'Culinária', 'Música']"
+44,Felipe,49,['Futebol']
+45,André,44,"['Natureza', 'Carros']"
+46,Rodrigo,45,['Culinária']
+47,Camila,34,"['Culinária', 'Leitura', 'Natureza', 'Fotografia']"
+48,Carlos,45,"['Ciência', 'Viagem', 'Política', 'Música']"
+49,Laura,40,"['Fotografia', 'Viagem']"
+50,Beatriz,44,"['Moda', 'Teatro', 'Esportes', 'Culinária']"
+51,Felipe,53,['Política']
+52,Larissa,56,"['Arte', 'Natureza', 'Teatro', 'Moda']"
+53,Gustavo,49,['Games']
+54,João,22,"['Arte', 'Games', 'Música']"
+55,Larissa,47,['Leitura']
+56,João,51,"['Esportes', 'Tecnologia', 'Games', 'Música', 'Futebol']"
+57,Mariana,50,"['Fotografia', 'Tecnologia', 'Natureza']"
+58,Camila,40,"['Esportes', 'Teatro']"
+59,André,52,"['Tecnologia', 'Arte', 'Cinema']"
+60,João,58,"['Teatro', 'História', 'Moda', 'Tecnologia']"
+61,Gustavo,56,"['Arte', 'Teatro', 'História']"
+62,Felipe,25,"['Dança', 'Ciência', 'História', 'Pets']"
+63,Isabela,40,"['Política', 'Leitura', 'Futebol']"
+64,João,53,"['Viagem', 'Teatro', 'Música']"
+65,Marcos,25,"['Arte', 'Ciência', 'Leitura', 'Natureza']"
+66,Marcos,18,"['Cinema', 'Fotografia', 'Moda', 'Natureza']"
+67,Laura,50,"['Natureza', 'Arte', 'Viagem', 'Culinária']"
+68,Lucas,33,"['Leitura', 'Games', 'Carros']"
+69,Laura,57,"['Música', 'História', 'Natureza']"
+70,Marcos,42,"['Dança', 'Futebol', 'História']"
+71,Mariana,18,['Música']
+72,Mariana,25,"['Carros', 'Esportes', 'História', 'Arte', 'Música']"
+73,Rodrigo,55,"['Dança', 'Culinária']"
+74,Laura,23,"['Moda', 'Fotografia', 'Tecnologia']"
+75,Felipe,43,"['Teatro', 'Leitura', 'Arte', 'Política']"
+76,Gustavo,31,"['Política', 'Games', 'Culinária', 'Fotografia']"
+77,Patrícia,54,"['Games', 'Viagem', 'Culinária']"
+78,Larissa,30,"['Ciência', 'Dança']"
+79,Felipe,24,"['História', 'Música', 'Cinema', 'Natureza', 'Moda']"
+80,Larissa,57,"['Ciência', 'Esportes', 'Leitura', 'Carros']"
+81,Mariana,26,['Natureza']
+82,Felipe,23,"['Natureza', 'Games', 'Teatro']"
+83,Ana,56,"['Ciência', 'Arte']"
+84,Patrícia,47,"['Música', 'Natureza', 'Culinária', 'Arte', 'História']"
+85,Mariana,26,['Culinária']
+86,Ana,57,"['Música', 'Futebol']"
+87,Camila,20,"['Pets', 'Viagem', 'Tecnologia', 'Teatro', 'Fotografia']"
+88,André,20,"['Culinária', 'Dança', 'Moda']"
+89,Rafael,31,"['Moda', 'Política', 'Teatro', 'Dança', 'Fotografia']"
+90,André,53,['Arte']
+91,Larissa,48,"['Fotografia', 'Culinária', 'Dança']"
+92,Beatriz,44,['História']
+93,Gustavo,31,"['História', 'Esportes', 'Dança', 'Futebol']"
+94,Felipe,58,"['Cinema', 'Fotografia', 'Futebol', 'Culinária']"
+95,Laura,55,['Cinema']
+96,Lucas,28,['Futebol']
+97,Larissa,23,"['Culinária', 'História', 'Política']"
+98,Fernanda,30,"['Futebol', 'Tecnologia']"
+99,Mariana,32,"['História', 'Culinária', 'Teatro', 'Viagem', 'Política']"
+100,Pedro,39,"['Pets', 'Viagem', 'Cinema', 'Fotografia', 'Esportes']"

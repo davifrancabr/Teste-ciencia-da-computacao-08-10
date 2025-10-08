@@ -1,0 +1,164 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "criar_pessoa",
+        "kind": 2,
+        "importPath": "1_criar_objeto",
+        "description": "1_criar_objeto",
+        "peekOfCode": "def criar_pessoa(name: str, age: int, id: int):\n    return {'id': id, 'nome': name, 'idade': age}",
+        "detail": "1_criar_objeto",
+        "documentation": {}
+    },
+    {
+        "label": "criar_pessoa",
+        "kind": 2,
+        "importPath": "2_combinar_gosto",
+        "description": "2_combinar_gosto",
+        "peekOfCode": "def criar_pessoa(name: str, age: int, id: int):\n    return {'id': id, 'nome': name, 'idade': age, }\ngostos = [\n    {\"id\": 1, \"gostos\": [\"Música\", \"Futebol\"]},\n    {\"id\": 2, \"gostos\": [\"Leitura\", \"Cinema\"]},\n    {\"id\": 3, \"gostos\": [\"Viagem\"]},\n    {\"id\": 4, \"gostos\": [\"Dança\", \"Esportes\"]},\n    {\"id\": 5, \"gostos\": [\"Tecnologia\", \"Culinária\"]},\n    {\"id\": 6, \"gostos\": [\"Moda\"]}\n]",
+        "detail": "2_combinar_gosto",
+        "documentation": {}
+    },
+    {
+        "label": "adicionar_gosto",
+        "kind": 2,
+        "importPath": "2_combinar_gosto",
+        "description": "2_combinar_gosto",
+        "peekOfCode": "def adicionar_gosto(pessoas: list, gostos: list):\n    for pessoa in pessoas:\n        print(pessoa)\n        for gosto in gostos:\n            if pessoa['id'] == gosto['id']:\n                pessoa['gostos'] = gosto['gostos']\n    return pessoas\nresultado = adicionar_gosto(pessoas, gostos)\nprint(resultado)",
+        "detail": "2_combinar_gosto",
+        "documentation": {}
+    },
+    {
+        "label": "gostos",
+        "kind": 5,
+        "importPath": "2_combinar_gosto",
+        "description": "2_combinar_gosto",
+        "peekOfCode": "gostos = [\n    {\"id\": 1, \"gostos\": [\"Música\", \"Futebol\"]},\n    {\"id\": 2, \"gostos\": [\"Leitura\", \"Cinema\"]},\n    {\"id\": 3, \"gostos\": [\"Viagem\"]},\n    {\"id\": 4, \"gostos\": [\"Dança\", \"Esportes\"]},\n    {\"id\": 5, \"gostos\": [\"Tecnologia\", \"Culinária\"]},\n    {\"id\": 6, \"gostos\": [\"Moda\"]}\n]\npessoas = [\n    criar_pessoa('Davi', 19, 1),",
+        "detail": "2_combinar_gosto",
+        "documentation": {}
+    },
+    {
+        "label": "pessoas",
+        "kind": 5,
+        "importPath": "2_combinar_gosto",
+        "description": "2_combinar_gosto",
+        "peekOfCode": "pessoas = [\n    criar_pessoa('Davi', 19, 1),\n    criar_pessoa('Carlos', 21, 2),\n    criar_pessoa('Marcos', 22, 3),\n    criar_pessoa('Vinicius', 25, 4),\n    criar_pessoa('Rogerio', 25, 5),\n    criar_pessoa('Arthur', 25, 6)\n]\ndef adicionar_gosto(pessoas: list, gostos: list):\n    for pessoa in pessoas:",
+        "detail": "2_combinar_gosto",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "2_combinar_gosto",
+        "description": "2_combinar_gosto",
+        "peekOfCode": "resultado = adicionar_gosto(pessoas, gostos)\nprint(resultado)",
+        "detail": "2_combinar_gosto",
+        "documentation": {}
+    },
+    {
+        "label": "adicionar_gosto",
+        "kind": 2,
+        "importPath": "3_dataframe",
+        "description": "3_dataframe",
+        "peekOfCode": "def adicionar_gosto(pessoas_df: pd.DataFrame, gostos_df: pd.DataFrame):\n    pessoas_lista = pessoas_df.to_dict('records')\n    gostos_lista = gostos_df.to_dict('records')\n    for pessoa in pessoas_lista:\n        for gosto in gostos_lista:\n            if pessoa['id'] == gosto['id']:\n                pessoa['gostos'] = gosto['gostos']\n    return pessoas_lista\nresultado = adicionar_gosto(pessoas, gostos)\ndef exportar_csv(pessoas: list, nome_arquivo: str):",
+        "detail": "3_dataframe",
+        "documentation": {}
+    },
+    {
+        "label": "exportar_csv",
+        "kind": 2,
+        "importPath": "3_dataframe",
+        "description": "3_dataframe",
+        "peekOfCode": "def exportar_csv(pessoas: list, nome_arquivo: str):\n    df = pd.DataFrame(pessoas)\n    return df.to_csv(nome_arquivo, index=False)\nexportar_csv(resultado, './data.csv')",
+        "detail": "3_dataframe",
+        "documentation": {}
+    },
+    {
+        "label": "pessoas",
+        "kind": 5,
+        "importPath": "3_dataframe",
+        "description": "3_dataframe",
+        "peekOfCode": "pessoas = pd.read_csv('./data/pessoas.csv')\ngostos = pd.read_csv('./data/gostos.csv')\ndef adicionar_gosto(pessoas_df: pd.DataFrame, gostos_df: pd.DataFrame):\n    pessoas_lista = pessoas_df.to_dict('records')\n    gostos_lista = gostos_df.to_dict('records')\n    for pessoa in pessoas_lista:\n        for gosto in gostos_lista:\n            if pessoa['id'] == gosto['id']:\n                pessoa['gostos'] = gosto['gostos']\n    return pessoas_lista",
+        "detail": "3_dataframe",
+        "documentation": {}
+    },
+    {
+        "label": "gostos",
+        "kind": 5,
+        "importPath": "3_dataframe",
+        "description": "3_dataframe",
+        "peekOfCode": "gostos = pd.read_csv('./data/gostos.csv')\ndef adicionar_gosto(pessoas_df: pd.DataFrame, gostos_df: pd.DataFrame):\n    pessoas_lista = pessoas_df.to_dict('records')\n    gostos_lista = gostos_df.to_dict('records')\n    for pessoa in pessoas_lista:\n        for gosto in gostos_lista:\n            if pessoa['id'] == gosto['id']:\n                pessoa['gostos'] = gosto['gostos']\n    return pessoas_lista\nresultado = adicionar_gosto(pessoas, gostos)",
+        "detail": "3_dataframe",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "3_dataframe",
+        "description": "3_dataframe",
+        "peekOfCode": "resultado = adicionar_gosto(pessoas, gostos)\ndef exportar_csv(pessoas: list, nome_arquivo: str):\n    df = pd.DataFrame(pessoas)\n    return df.to_csv(nome_arquivo, index=False)\nexportar_csv(resultado, './data.csv')",
+        "detail": "3_dataframe",
+        "documentation": {}
+    },
+    {
+        "label": "ordenar_lista",
+        "kind": 2,
+        "importPath": "4_ordenar_lista",
+        "description": "4_ordenar_lista",
+        "peekOfCode": "def ordenar_lista(lista: list[int]):\n    return sorted(lista)\nresultado = ordenar_lista(lista)\nprint(resultado)",
+        "detail": "4_ordenar_lista",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "4_ordenar_lista",
+        "description": "4_ordenar_lista",
+        "peekOfCode": "lista = [42, 12, 9, 73, 51, 22]\ndef ordenar_lista(lista: list[int]):\n    return sorted(lista)\nresultado = ordenar_lista(lista)\nprint(resultado)",
+        "detail": "4_ordenar_lista",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "4_ordenar_lista",
+        "description": "4_ordenar_lista",
+        "peekOfCode": "resultado = ordenar_lista(lista)\nprint(resultado)",
+        "detail": "4_ordenar_lista",
+        "documentation": {}
+    },
+    {
+        "label": "top_tres_maiores",
+        "kind": 2,
+        "importPath": "5_ordenar_3_maiores",
+        "description": "5_ordenar_3_maiores",
+        "peekOfCode": "def top_tres_maiores(lista: list[int]):\n    lista_ordenada = sorted(lista, reverse=True)\n    return lista_ordenada[:3]\nresultado = top_tres_maiores(lista)\nprint(resultado)",
+        "detail": "5_ordenar_3_maiores",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "5_ordenar_3_maiores",
+        "description": "5_ordenar_3_maiores",
+        "peekOfCode": "lista = [5, 42, 12, 9, 73, 51, 22]\ndef top_tres_maiores(lista: list[int]):\n    lista_ordenada = sorted(lista, reverse=True)\n    return lista_ordenada[:3]\nresultado = top_tres_maiores(lista)\nprint(resultado)",
+        "detail": "5_ordenar_3_maiores",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "5_ordenar_3_maiores",
+        "description": "5_ordenar_3_maiores",
+        "peekOfCode": "resultado = top_tres_maiores(lista)\nprint(resultado)",
+        "detail": "5_ordenar_3_maiores",
+        "documentation": {}
+    }
+]
